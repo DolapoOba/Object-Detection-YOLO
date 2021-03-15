@@ -1,28 +1,13 @@
 # Object-Detection-YOLO
 
-A few years ago, the creation of the software and hardware image processing systems was mainly
-limited to the development of the user interface, which most of the programmers of each firm were
-engaged in. The situation has been significantly changed with the advent of the Windows operating
-system when the majority of the developers switched to solving the problems of image processing
-itself. 
 
-However, this has not yet led to the cardinal progress in solving typical tasks of recognizing
-faces, car numbers, road signs, analyzing remote and medical images, etc. Each of these "eternal" 
-problems is solved by trial and error by the efforts of numerous groups of the engineers and scientists. 
-As modern technical solutions are turn out to be excessively expensive, the task of automating the
-creation of the software tools for solving intellectual problems is formulated and intensively solved
-abroad. In the field of image processing, the required tool kit should be supporting the analysis and
-recognition of images of previously unknown content and ensure the effective development of
-applications by ordinary programmers. Just as the Windows toolkit supports the creation of interfaces
-for solving various applied problems. 
 
-Object recognition is to describe a collection of related computer vision tasks that involve activities
-like identifying objects in digital photographs. Image classification involves activities such as
-predicting the class of one object in an image. Object localization is refers to identifying the location
-of one or more objects in an image and drawing an abounding box around their extent. Object
-detection does the work of combines these two tasks and localizes and classifies one or more objects
-in an image. When a user or practitioner refers to the term “object recognition“, they often mean
-“object detection“. It may be challenging for beginners to distinguish between different related
-computer vision tasks. 
+Object detection is the process of finding real world instances like car, bike, TV, flowers, and human beings in digital objects from images or videos. It allows for recognition, localization and detection of multiple objects within an image which provides us with a much better understanding of an image as a whole. Object detection is widely used and has a strong practical value and research prospects. One of its real-time applications is pedestrian detection, industry quality check, self driving cars and security to find all the objects of interest and determine the category and location of the objects. 
+
+
+For locating objects in the image we use You Only Look Once (YO-LO) approach. Object Localization and have to locate more than one object in real-time systems. There are various techniques for object detection, which can be split into two categories, first is the algorithms based on Classifications. In this, we have to select the interested regions from the image and have to classify them using Convolutional Neural Network(CNN). This method is very slow because we have to run a prediction for every selected region. The second category is the algorithms based on Regressions. YOLO method comes under this category. The Objective is detection of objects using You Only Look Once (YOLO) approach. 
+
+
+In other algorithms like Convolutional Neural Network, the algorithm will not look at the image completely but in YOLO the algorithm looks the image completely by predicting the bounding boxes using convolutional network and the class probabilities for these boxes and detects the image faster as compared to other algorithms.
 
 Obayomi Dolapo Anthony
